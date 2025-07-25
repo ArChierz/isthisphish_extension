@@ -1,0 +1,69 @@
+* {
+     box-sizing: border-box;
+}
+body{
+     width: 300px;
+     height: 270px;
+     margin: 0;
+     padding: 5px 10px 10px 10px;
+}
+
+h1, h2, p {
+  margin: 4px 0; /* shrink default margin */
+}
+
+table {
+  width: 100%;
+  font-size: 14px;
+  border-spacing: 4px 6px;
+}
+
+td.label {
+  position: relative;
+  padding-right: 12px; /* room for colon */
+  width: 90px;
+  white-space: nowrap;
+  text-align: left;
+  font-weight: bold;
+}
+
+td.label::after {
+  content: ":";
+  position: absolute;
+  right: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: black;
+}
+
+
+.title-popup{
+     color:red;
+     text-align: center;
+}
+
+#submitReason {
+  margin-top: 5px;
+  width: 25%;
+  padding: 2px;
+  font-weight: bold;
+}
+
+#url {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 12px;
+}
+
+#domain {
+     font-weight: lighter;
+}
+#country {
+     font-weight: lighter;
+}
+#lifetiime {
+     font-weight: lighter;
+}
