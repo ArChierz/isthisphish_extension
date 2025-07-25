@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="popup.css">
+        <!-- <a href="https://www.flaticon.com/free-icons/phishing" title="phishing icons">Phishing icons created by max.icons - Flaticon</a> -->
+        <title>IsThisPhish</title>
+    </head>
+ <body>
+    <h1 class="title-popup"><u>IsThisPhish?</u></h1>
+    <hr>
+    <table>
+        <tr>
+            <td class="label">Domain</td>
+            <td id="domain"></td>
+        </tr>
+        <tr>
+            <td class="label">Country</td>
+            <td id="country"></td>
+        </tr>
+    </table>
+
+    <hr>
+    <h2>Report URL?</h2>
+    <p><span id="url" title=""></span></p>
+    <h2>Reason</h2>
+    <input type="text" id="reason" placeholder="Reason Here">
+    <input type="submit" id="submitReason" value="Submit">
+    <div id="feedbackResult" style="display: none; color: green; font-size: 20px;"></div>
+
+    
+
+  <script src="popup.js"></script>
+ </body>
+</html>

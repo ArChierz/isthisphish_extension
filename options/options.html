@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="options.css">
+    <title>IsThisPhish - Options Page</title>
+    
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1 class="title-options"><u>IsThisPhish?</u></h1>
+            
+            <p class="p-options">
+                Machine Learning-Based Chrome Extension for Phishing Website Detection. <br>
+                This project has been made to fulfil the requirement for bachelor thesis and <b><u>only</u></b> cover the basic necessity.<br>
+                Further development and research is <b><u>needed</u></b> to improve the accuracy and precision to detect phishing site and reduce false positive. <br>
+                Here provided a whitelist feature to list legitimate site that may be blocked by the extension.
+            </p>
+        </div>
+        
+        <div class="textbox">
+            <div class="textarea-wrapper">
+                <p><label for="whitelist">Put the domain whitelist here:</label></p>
+                <div class="input-whitelist">
+                    <input type="text" name="input-domain" id="input-domain" placeholder="example.com">
+                    <input type="button" id="button" value="submit">
+                </div>
+                <div class="container whitelist-box-border">
+                    <ul id="whitelistDisplay" class="whitelist-box"></ul>
+
+                </div>
+                <!-- <textarea name="whitelist" id="whitelistBox" rows="15" cols="50" disabled></textarea> -->
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <a href="https://www.flaticon.com/free-icons/phishing" title="phishing icons">Phishing icons created by max.icons - Flaticon</a>
+        <h5 class="version">Version: 1.0.0. © 2025. IsThisPhish. All rights reserved.</h5>
+    </div>
+
+    <script src="options.js"></script>
+</body>
+
+
+
+</html>
