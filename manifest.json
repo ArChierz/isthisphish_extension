@@ -25,7 +25,6 @@
   "permissions": [
     "tabs",
     "storage",
-    "scripting",
     "sessions"
 
   ],
