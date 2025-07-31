@@ -4,11 +4,6 @@ Machine Learning-Based Chrome Extension for Phishing Website Detection.
 This project has been made to fulfilled the requirement for bachelor thesis and only cover the basic necessity.
 Further development and research is needed to improve the accuracy and precision to detect phishing site and reduce false positive.
 
-## Hash Integrity
-
-IsThisPhish_1-0-0.zip
-SHA256: 9A0FCA000FED5F8B039898DFCED910B5E1AC89289D85B353057161898D2164A9
-
 ## Installation
 
 The extension distribution will come in local and Chrome Webstore soon. 
