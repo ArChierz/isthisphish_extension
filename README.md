@@ -7,7 +7,7 @@ Further development and research is needed to improve the accuracy and precision
 ## Hash Integrity
 
 IsThisPhish_1-0-0.zip
-SHA256: 4CF4D28A71FC4BD684C96C938D36907C0354647BB7E6DE5E3006B3C7FA6EA916
+SHA256: 9A0FCA000FED5F8B039898DFCED910B5E1AC89289D85B353057161898D2164A9
 
 ## Installation
 
